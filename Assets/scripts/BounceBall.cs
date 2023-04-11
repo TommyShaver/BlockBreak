@@ -16,6 +16,7 @@ public class BounceBall : MonoBehaviour
     public GameObject _gameOverPanel;
     public GameObject _winnerPanel;
 
+
     int _blockCount;
     // Start is called before the first frame update
     void Start()
@@ -63,7 +64,6 @@ public class BounceBall : MonoBehaviour
         }
         
     }
-
     void GameOver()
     {
         _gameOverPanel.SetActive(true);
